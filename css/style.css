@@ -128,6 +128,7 @@ nav a:hover {
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
+  margin-top:15px;
 }
 
 .contact .order-btn:hover {
@@ -171,4 +172,46 @@ iframe {
   .hero h2 {
     font-size: 28px;
   }
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-content img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.about-text{
+    max-width: 500px;
+}
+
+.about{
+    padding: 60px 20px;
 }
